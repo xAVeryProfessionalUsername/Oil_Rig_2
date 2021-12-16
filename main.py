@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 import pyodbc
-from SQLtoolpackage.SQLtoolsmodule import SQLtools
+import AAA
 import time
 
 
@@ -14,24 +14,7 @@ conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-;DA
 
 cursor=conn.cursor()
 
-
-class tool():
-    conn = pyodbc.connect(
-        'DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-84EULDP;DATABASE=StockData;Trusted_Connection=yes;')
-
-    cursor = conn.cursor()
-
-
-    @classmethod
-    def maketables(self):
-        cursor.execute('''
-            CREATE TABLE %s(
-                PersonId INTEGER PRIMARY KEY,
-                FirstName TEXT NOT NULL,
-                LastName TEXT NOT NULL,
-                Age INTEGER NULL);
-                ''' % (ticker,))
-        conn.commit()
+tool = AAA.toolz
 
 # def maketables():
 #     cursor.execute('''
