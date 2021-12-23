@@ -10,7 +10,7 @@ import seaborn as sb
 
 tool= AAA.toolz
 conn = pyodbc.connect(
-   'DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-84EULDP;DATABASE=StockData;Trusted_Connection=yes;')
+   'DRIVER={ODBC Driver 17 for SQL Server};SERVER=NONEYOURBUSINESS;DATABASE=StockData;Trusted_Connection=yes;')
 
 cursor = conn.cursor()
 
