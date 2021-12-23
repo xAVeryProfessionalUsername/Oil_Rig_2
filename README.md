@@ -18,8 +18,8 @@ Sample size around 3000.
 
 Average gain of all stocks was -11%. SP500 gain over same time period was 4%. Difference probably just result of growing companies taking up larger share of index and vice versa for smaller companies.
 
-Post-Hypothesis: Very high price targets could result in hype dissapointments and therefore panic selling therefore lower prices.
-
 Only one sample was taken. Stock market tendencies vary heavily time by time.
 
 Companies with stock splits removed from sample.
+
+Post-Hypothesis: Very high price targets could result in hype dissapointments and therefore panic selling therefore lower prices.
