@@ -6,6 +6,8 @@ Price change over 5 months based off of price target.
 Correlation: -.32: (Weak downard trend, strong trend in Stock world)
 P-Value: Essentially zero(10^-74)(Definitely significant)
 
+
+
 Notes:
 
 Pre-Hypothesis: Stocks are based off of investor sentiment; when people see a stock as good, investors will invest in it, like Gamestop and Bitcoin hypes.
