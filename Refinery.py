@@ -1,4 +1,4 @@
-import Def_Functions
+import Methods
 import pyodbc
 import numpy as np
 import pandas as pd
@@ -8,7 +8,7 @@ from numpy.polynomial.polynomial import polyfit
 import scipy.stats
 import seaborn as sb
 
-tool= Def_Functions.toolz
+tool= Methods.toolz
 conn = pyodbc.connect(
    'DRIVER={ODBC Driver 17 for SQL Server};SERVER=NONEYOURBUSINESS;DATABASE=StockData;Trusted_Connection=yes;')
 

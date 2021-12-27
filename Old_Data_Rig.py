@@ -2,9 +2,9 @@ import os
 import pandas as pd
 import glob
 import csv
-import Def_Functions
+import Methods
 
-tool = Def_Functions.toolz
+tool = Methods.toolz
 path = os.getcwd()
 files=glob.glob(path + '/StockData'+'/*.csv')
 

@@ -5,11 +5,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 import pyodbc
-import Def_Functions
+import Methods
 from datetime import date
 
 
-tool = Def_Functions.toolz
+tool = Methods.toolz
 
 
 
