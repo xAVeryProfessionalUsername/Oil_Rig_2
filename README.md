@@ -1,4 +1,4 @@
-# Oil_Rig_2
+# Stock Data Analyzer
 ![image](https://user-images.githubusercontent.com/90120063/147183849-25c7d1ca-8e15-4ebe-83c5-51008c84c6e9.png)
 
 Price change over 5 months based off of price target.
