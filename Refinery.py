@@ -39,7 +39,7 @@ for x in tablelist:
         #Before
 
         print(y)
-        if y[5]=='2021-07-12' and (y[4] != 'Error') and (y[3] != 'Error') and(y[3]!='>-0.01') and (int(y[2])>10):
+        if y[5]=='2021-07-12' and (y[4] != 'Error') and (y[3] != 'Error') and(y[3]!='>-0.01') and (int(y[2])>1):
             print(x,' ',y[4], ' ', y[3])
             ticker1.append(x)
             ticker1.append(y[4])
@@ -90,6 +90,8 @@ df=pd.DataFrame(data=newdata, columns=['priceTGT', 'percent'])
 
 sb.regplot(x=ptgt, y=pctarr, ci=None, data=df)
 print(scipy.stats.spearmanr(ptgt,pctarr))
+print(len(pctarr))
+print(sum(pctarr)/len(pctarr))
 plt.show()
 
 
