@@ -4,7 +4,7 @@ import glob
 import csv
 import Def_Functions
 
-tool = AAA.toolz
+tool = Def_Functions.toolz
 path = os.getcwd()
 files=glob.glob(path + '/StockData'+'/*.csv')
 

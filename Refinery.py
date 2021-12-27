@@ -8,7 +8,7 @@ from numpy.polynomial.polynomial import polyfit
 import scipy.stats
 import seaborn as sb
 
-tool= AAA.toolz
+tool= Def_Functions.toolz
 conn = pyodbc.connect(
    'DRIVER={ODBC Driver 17 for SQL Server};SERVER=NONEYOURBUSINESS;DATABASE=StockData;Trusted_Connection=yes;')
 
