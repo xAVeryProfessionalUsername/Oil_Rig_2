@@ -23,3 +23,7 @@ Only one sample was taken. Stock market tendencies vary heavily time by time.
 Companies with stock splits removed from sample.
 
 Post-Hypothesis: Very high price targets could result in hype dissapointments and therefore panic selling therefore lower prices.
+
+Notes:
+Must download Chromium first
+Website StockAnalyis constantly updates itself, therefore rendering need to change xml paths whenever the site updates.
