@@ -24,7 +24,7 @@ Companies with stock splits removed from sample.
 
 Post-Hypothesis: Very high price targets could result in hype dissapointments and therefore panic selling therefore lower prices.
 
-Notes:
+PS:
 
 Must download Chromium first
 
